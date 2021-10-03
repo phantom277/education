@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body{
+	background-color: #fff;
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -40,22 +41,34 @@ body{
 	align-items: center;
 }
 .navigation__logo {}
-.navigation__list{}
+
 .navigation__list li{
 	display: inline-block;
+	padding: 0px 25px 0px 0px;
 }
 .navigation__list a{
 	font-family: Lato;
 	color: #868686;
 	text-transform: uppercase;
-	padding: 0px 25px 0px 0px;
 }
+
+
 li span{
 	display: inline-block;
 	background-color: #ffbb42;
 	color: #fff;
 	padding: 7px 15px;
 	border-radius: 2px;
+}
+.navigation__list a:hover{
+	box-shadow: 0px 0px 20px rgba(53, 121, 189, 0.8), inset 0px 0px 20px rgba(53, 121, 189, 0.8);
+	border-radius: 15px;
+	color: red;
+}
+	li span:hover{
+	box-shadow: 0px 0px 20px rgba(53, 121, 189, 0.8), inset 0px 0px 20px rgba(53, 121, 189, 0.8);
+	border-radius: 15px;
+	color: red;
 }
 .form-users {
 	background-color: #709dca;
@@ -98,6 +111,11 @@ li span{
 	padding: 0px 0px 0px 41px;
 	font-size: 13px;
 	color: a9a9a9;
+}
+.form-users__input input:focus{
+	background-color: rgba(204, 248, 255, 1);
+	box-shadow: -5px -5px 15px #000;
+	border-radius: 15px;
 }
 .form-users__image {
 	position: relative;
@@ -214,7 +232,6 @@ height: 44px;
 	padding: 164px 0px 0px 80px;
 	margin: 0px 3px 0px 0px;
 }
-.servisec__text {}
 .servisec__text h3{
 	font-family: Open Sans;
 	font-size: 30px;
@@ -229,9 +246,12 @@ height: 44px;
 	font-size: 13px;
 	line-height: 1.85;
 	color: #fff;
-	width: 505px;
-	max height: 100%;
+	display: flex;
+	flex: 0 1 505px;
 	margin: 0px 0px 33px 0px;
+}
+.servisec__text{
+	width: 505px;
 }
 .servisec__text a{
 	display: inline-block;
@@ -532,6 +552,10 @@ padding: 0px 7px 0px 0px;
 	font-size: 22px;
 	color: #394b50;
 }
+.footer__link a:hover{
+	text-decoration: underline #b1d8ff;
+}
+
 .footer__link img{
 	position: relative;
 	top: 4px;
@@ -548,6 +572,7 @@ padding: 0px 7px 0px 0px;
 	text-align: center;
 	margin: 23px 0px 52px 0px;
 }
+
 .footer__group-image img{
 	margin: 0px 15px 0px 0px;
 	max-height: 17px;

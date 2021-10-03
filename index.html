@@ -7,6 +7,7 @@
 		<link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
 		<link rel="stylesheet" href="css/style.css">
 		<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	<body>
 			<header id="home">
@@ -23,14 +24,14 @@
 									<li><a href="#services__about">about as</a></li>
 									<li><a href="#price">pricing table</a></li>
 									<li><a href="#works">howit work</a></li>
-									<li><a href="#clients">happy clientsSS</a></li>
+									<li><a href="#clients">happy clients</a></li>
 									<li><a href="#contact">contact us</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="form-users">
-						<div class="form-users__shift-1">
+						<div data-aos="fade-down" class="form-users__shift-1">
 							<h1>Boost up your Local business</h1>
 							<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</h5>
 							<div class="form-users__input">
@@ -58,12 +59,12 @@
 				<div class="content">
 					<div id="services" class="content__services">
 						<div class="container">
-							<div class="services__tittle tittle">
+							<div data-aos="fade-down" class="services__tittle tittle">
 								<h2>our services</h2>
 								<p>Lorem ipsum is simply dummy Business Industry</p>
 							</div>
 							<div class="services__row">
-								<div class="services__column">
+								<div data-aos="fade-right" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -76,7 +77,7 @@
 											</div>
 										</div>
 								</div>
-								<div class="services__column">
+								<div data-aos="fade-left" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -89,7 +90,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="services__column">
+								<div data-aos="fade-right" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -102,7 +103,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="services__column">
+								<div data-aos="fade-left" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -115,7 +116,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="services__column">
+								<div data-aos="fade-right" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -128,7 +129,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="services__column">
+								<div data-aos="fade-left" class="services__column">
 										<div class="services__item item">
 											<div class="item__row">
 												<div class="item__img">
@@ -146,10 +147,10 @@
 						<div id="services__about" class="services__about">
 							<div class="servisec__row">
 								<div class="servisec__image">
-									<img src="img/main/about-us-img.jpg" alt="stol rabotnika ofica">
+									<img data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" src="img/main/about-us-img.jpg" alt="stol rabotnika ofica">
 								</div>
 								<div class="servisec__body">
-									<div class="servisec__text">
+									<div data-aos="fade-left"data-aos-offset="100"data-aos-easing="ease-in-sine" class="servisec__text">
 										<h3>About us</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
 										<a href="#">Read more</a>
@@ -160,11 +161,13 @@
 					</div>
 					<div id="price" class="content__price">
 						<div class="container">
-							<div class="price__tittle tittle">
+							<div data-aos="fade-down" class="price__tittle tittle">
 								<h2>chous your price</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
 							</div>
-							<div class="price__row">
+							<div data-aos="flip-left"
+								data-aos-easing="ease-out-cubic"
+								data-aos-duration="2000" class="price__row">
 								<div class="price__column">
 									<div class="column__body">
 										<h3>Basic plan</h3>
@@ -213,11 +216,11 @@
 					</div>
 					<div id="works" class="content__works">
 						<div class="container">
-							<div class="works__tittle tittle">
+							<div data-aos="fade-down" class="works__tittle tittle">
 								<h2>how it works</h2>
 								<p>Lorem ipsum is simply dummy Business Industry</p>
 							</div>
-							<div class="works__position">
+							<div data-aos="fade-up"data-aos-anchor-placement="bottom-bottom" class="works__position">
 								<div class="works__img-arrow">
 									<div class="works__img-arrow-1">
 										<img src="img/main/arrow-_full.webp" alt="dvostoronnyaya strelka">
@@ -230,7 +233,7 @@
 									</div>
 								</div>
 							</div>
-								<div class="works__row">
+								<div data-aos="fade-up"ata-aos-anchor-placement="top-bottom" class="works__row">
 									<div class="works__column">
 										<div class="works__img">
 											<img src="img/main/2-1.webp" alt="nayshniki">
@@ -275,12 +278,12 @@
 					</div>
 					<div id="clients" class="content__clients">
 						<div class="container container-large">
-							<div class="clients__tittle tittle">
+							<div data-aos="fade-down" class="clients__tittle tittle">
 								<h2>happy clients</h2>
 								<p>We are explain who is using our business solution</p>
 							</div>
 							<div class="clients__row">
-								<div class="clients__item">
+								<div data-aos="fade-right" class="clients__item">
 									<div class="clients__item_img">
 										<img src="img/main/foto_1.jpg" alt="Devushka">
 									</div>
@@ -289,7 +292,7 @@
 										<h3><span>Darwin Michle,</span> Project manager</h3>
 									</div>
 								</div>
-								<div class="clients__item">
+								<div data-aos="fade-left" class="clients__item">
 									<div class="clients__item_img">
 										<img src="img/main/foto_2.jpg" alt="Ky4eryavuy parenj">
 									</div>
@@ -298,7 +301,7 @@
 										<h3><span>Madam Elisabath,</span> Creative director</h3>
 									</div>
 								</div>
-								<div class="clients__item">
+								<div data-aos="fade-right" class="clients__item">
 									<div class="clients__item_img">
 										<img src="img/main/foto_3.jpg" alt="Siluet parnya">
 									</div>
@@ -307,7 +310,7 @@
 										<h3><span>Clips Arter,</span> Lipsum Directer</h3>
 									</div>
 								</div>
-								<div class="clients__item">
+								<div data-aos="fade-left" class="clients__item">
 									<div class="clients__item_img">
 										<img src="img/main/foto_4.jpg" alt="Parenj v shapke">
 									</div>
@@ -321,7 +324,7 @@
 					</div>
 					<div class="content__newsletter">
 						<div class="container">
-							<div class="newsletter__tittle tittle">
+							<div data-aos="fade-down" class="newsletter__tittle tittle">
 								<h2>newsletter</h2>
 								<p>lorem ipsum is simply dummy business industry</p>
 							</div>
@@ -338,7 +341,7 @@
 									</form>
 								</div>
 							</div>
-							<div class="newsletter__img">
+							<div data-aos="zoom-in" class="newsletter__img">
 								<img src="img/main/map.jpg" alt="Maps">
 							</div>
 						</div>
@@ -383,5 +386,9 @@
 					</div>
 				</div>
 			</footer>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
