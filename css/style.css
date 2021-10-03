@@ -246,12 +246,10 @@ height: 44px;
 	font-size: 13px;
 	line-height: 1.85;
 	color: #fff;
-	display: flex;
-	flex: 0 1 505px;
 	margin: 0px 0px 33px 0px;
 }
 .servisec__text{
-	width: 505px;
+	max-width: 505px;
 }
 .servisec__text a{
 	display: inline-block;
@@ -456,13 +454,20 @@ height: 44px;
 .container-large{
 	max-width: 1237px;
 }
+
 .clients__item_text {
-	font-family: Open Sans;
+t-family: Open Sans;
 	font-size: 13px;
 	line-height: 22px;
 	color: #7b7b7b;
 	margin: 0px 27px 0px 0px;
 }
+.clients__item_text p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;}
 .clients__item_text h3{
 	margin-top: 26px;
 	font-family: Lato;
