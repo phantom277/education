@@ -24,15 +24,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body{
+	font-family: "Open Sans";
+	min-width: 1200px;
+}
+.wrapper{
 	background-color: #fff;
 	min-height: 100%;
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	font-family: "Open Sans";
 }
 .container {
-	max-width: 1165px;
+	width: 1200px;
 	margin: 0px auto;
+	padding: 0px 15px;
 }
 .navigation {
 	margin: 30px 0px;
@@ -462,12 +467,12 @@ t-family: Open Sans;
 	color: #7b7b7b;
 	margin: 0px 27px 0px 0px;
 }
-.clients__item_text p{
-	overflow: hidden;
+/*.clients__item_text p{
+	overflow: auto;
 	text-overflow: ellipsis;
 	display: -webkit-box;
 	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;}
+	-webkit-box-orient: vertical;}*/
 .clients__item_text h3{
 	margin-top: 26px;
 	font-family: Lato;
